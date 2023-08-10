@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap");
+* {
+  box-sizing: border-box;
+}
+:root{
+    --color-main:#003B60;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: rgb(224, 236, 255);
+  font-family: 'Tiro Bangla', serif;
+}
+
+.label {
+  left: 0;
+  justify-content: center;
+  color: white;
+  background-color: darkblue;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid darkblue;
+  border-radius: 45px 0 40px 0;
+  position: absolute;
+}
+
+.sub-container {
+  margin-left: 50px;
+  position: relative;
+}
+
+.paragraph {
+  font-size: 40px;
+  padding: 50px 50px 0px 0;
+  color: darkblue;
+}
+.tag {
+  font-size: 20px;
+  color: darkblue;
+}
+.price {
+  left: 0;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.price-small {
+  font-size: 20px;
+  color: rgba(0, 0, 139, 0.4);
+}
+
+.price-big {
+  margin-left: 10px;
+  font-size: 35px;
+  color: darkblue;
+}
+
+button.button {
+  cursor: pointer;
+  margin-top: 50px;
+  color: darkblue;
+  background: yellow;
+  border: 1px solid yellow;
+  border-radius: 40px 0 40px 0;
+  font-size: 18px;
+  padding: 10px 30px;
+}
+
+.info {
+  margin-top: 30px;
+  font-size: 20px;
+  color: darkblue;
+}
+
+
+.badge-number {
+  margin-left: 30px;
+  font-size: 25px;
+  color: darkblue;
+  background-color: yellow;
+  border-radius: 30px 0 30px 0;
+  padding: 10px 20px;
+  width: 250px;
+}
+
+.badge-info {
+  font-size: 15px;
+  color: white;
+  background-color: darkblue;
+  border-radius: 30px 0 30px 0;
+  padding: 10px 20px;
+  width: 250px;
+  align-items: center;
+}
+.sub-container2 {
+  position: absolute;
+  bottom: 0px;
+  left: 60%;
+}
+
+.up-container {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 50px;
+}
+.icons {
+  margin-left: 400px;
+}
+.logo {
+  left: 0;
+  display: flex;
+  margin: 10px;
+  padding: 0;
+  padding-left: 2px;
+}
+
+div {
+  margin-right: 10px;
+}
+.boss-container{
+    width: 100%;
+}
+.prime-container2{
+    font-size: 18px;
+    color: darkblue;
+    padding-left: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.img-card{
+    background-color: rgba(192,192,192,0.9);
+    height: 500px;
+    width: 300px;
+    border-radius: 200px;
+    margin-right: 40px;
+}
+.sub-container-card{
+    display: flex;
+    padding: 30px;
+}
+ul{
+    list-style: none;
+}
+.checkbox{
+    display: flex;
+}
+input[type=checkbox]{
+    accent-color: white;
+    outline: 1px solid darkblue;
+    color: darkblue;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 5px solid darkblue;
+    outline: 3px solid yellow;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: darkblue;
+    background-color: white;
+}
+.icard{
+    height: 300px;
+    width: 290px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-radius: 40px 0 40px 0;
+    position: relative;
+}
+.badge{
+    position: absolute;
+    font-size: 14px;
+    margin-top: 80%;
+    margin-bottom: 20px;
+    background-color: darkblue;
+    color: white;
+    border: 1px solid darkblue;
+    border-radius: 30px 0 30px 0;
+    padding: 10px 20px;
+}
+li{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.card-play{
+    height: 500px;
+    width: 70%;
+    background-color: rgb(4, 59, 92);
+    margin: 20px;
+    border-radius: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: yellow;
+    outline: 10px solid rgb(224, 236, 255,0.4);
+}
+
+.box1{
+    border: 1px solid var(--color-main);
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    width: 70%;
+}
+.box2{
+    border: 1px solid var(--color-main);
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    width: 50%;
+    margin: 30px;
+}
+.card-order-price{
+    height: 500px;
+    width: 50%;
+    background-color: rgb(4, 59, 92);
+    margin: 20px;
+    border-radius: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.pcard{
+    height: 300px;
+    width: 290px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px 0 40px 0;
+    position: relative;
+}
+
+.profile-circle{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: grey;
+    margin-top: -20%;
+}
+.button-back{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-main);
+    border: 1px solid var(--color-main);
+}
+
+.button-forward{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(224, 236, 255);
+    background-color: var(--color-main);
+    border: 1px solid var(--color-main);
+}
+.form-card{
+    position: relative;
+    height: 700px;
+    width: 100%;
+    margin-top: 40px;
+    background-color: var(--color-main);
+    display:flex;
+    justify-content: center;
+
+}
